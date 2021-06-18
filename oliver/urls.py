@@ -1,6 +1,6 @@
 from django.urls import path, include
 
-from assets import views
+from oliver import views
 
 urlpatterns = [
     path('booking/', views.BookedEvents.as_view())
